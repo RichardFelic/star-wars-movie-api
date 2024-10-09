@@ -1,0 +1,5 @@
+- Crear una aplicacion para consultar las peliculas de Star Wars mediante SWAPI
+
+- Menu para que el usuario elija la pelicula que quiere buscar
+
+- Generar un archivo .JSON con los datos de la pelicula
