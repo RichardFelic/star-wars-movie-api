@@ -34,7 +34,7 @@ Asegúrate de tener Java y las dependencias necesarias instaladas.
 1. Ejecuta la aplicación.
 2. Se te pedirá que ingreses el número de la película que deseas agregar (corresponde al ID en la API de Star Wars). Puedes seguir ingresando IDs de películas o escribir `salir` para finalizar.
 3. Si has agregado películas, se te pedirá un nombre de archivo (sin la extensión) para guardar los detalles en un archivo JSON.
-4. El archivo JSON se generará con las películas seleccionadas.
+4. El archivo JSON se generará con las películas seleccionadas en la carpeta llamada `archivos`.
 
 ### Ejemplo de Uso
 
