@@ -54,7 +54,9 @@ public class StarWarsApiClient {
 
     // Metodo para guardar la película seleccionada en un archivo JSON
     public void guardarPeliculaComoJson(List<Pelicula> peliculas, String nombreArchivo) throws IOException {
-        FileWriter writer = new FileWriter(nombreArchivo + ".json");
+        // Especificar la ruta del archivo JSON en el directorio "archivos"
+        String rutaArchivo = "archivos/" + nombreArchivo + ".json";
+        FileWriter writer = new FileWriter(rutaArchivo);
         gson.toJson(peliculas, writer);
         writer.flush();
         writer.close();
